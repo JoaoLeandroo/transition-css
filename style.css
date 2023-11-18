@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(0, 255, 229);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-testing {
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgba(255, 0, 0, 0.567);
+
+    display: flex;
+}
+
+.section-testing div {
+    width: 40%;
+}
+
+.section-testing img {
+    border-radius: 10px;
+    transition: all 0.7s ease-in-out;
+}
+
+.section-testing img:hover {
+    transform: scale(1.2);
+}
